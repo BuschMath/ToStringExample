@@ -8,6 +8,9 @@ public class Person {
     private int age;
 
     // constructor and getters/setters omitted for brevity
+    public void SetName(String name_) {name = name_;}
+
+    public void SetAge(int age_) {age = age_;}
 
     @Override
     public String toString() {
